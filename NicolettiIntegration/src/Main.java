@@ -17,6 +17,7 @@ import java.util.Scanner;
  * 
  * Variable - a place holder for a data type, to make it easier to be called upon.
  * Scope - means that the variables are only accessible in the method where they're declared.
+ * HAHA
  */
 public class Main {
 
