@@ -4,20 +4,7 @@ import java.util.Scanner;
 //A program that outputs the requirements for the Integration Project,
 //making it easier to grade.
 //Use Menu Code from Module 6 under Supplemental Resources "Logic Ch. 11 Menu"
-/*
- * Data Types:
- * int - is a data type that represents numbers that wont be fractional.
- * double - is a data type that represents numbers that will have fractions/decimals.
- * string - is a data type that represents words that form a sentence or sometimes, don't. 
- * char - is a data type that represents one character or letter.
- * boolean - is a data type that represents a "true or false" statement.  
- * float - is a data type that represents a very large number in something like scientific notation. 
- * Any more data types that I'm missing that NEED to be on here?
- * 
- * 
- * Variable - a place holder for a data type, to make it easier to be called upon.
- * Scope - means that the variables are only accessible in the method where they're declared.
- */
+ 
 public class Main {
 
 	public static void main(String[] args) {
@@ -56,9 +43,11 @@ public class Main {
 	        		boolean bird = in.nextBoolean();
 	        		if (bird == true) {
 	        			System.out.println("You're Correct!");
+	        			 System.out.println("The Boolean was made to test whether true or false was entered into the program.");
 	        			badInput = false;
 	        		} else if (bird == false) {
 	        			System.out.println("You're wrong! Fish can definitely swim!");
+	        			 System.out.println("The Boolean was made to test whether true or false was entered into the program.");
 	        			badInput = false;
 	        		}
 	        	} else {
@@ -68,7 +57,6 @@ public class Main {
 	        			
 	        }
 	        //System.out.println("Here");
-	        System.out.println("The Boolean was made to test whether true or false was entered into the program.");
 	        badInput = true;
 	        System.out.println("Type \"Integer\" for an example.");
 	        String integerInput = in.nextLine() + in.nextLine();
@@ -82,14 +70,15 @@ public class Main {
 	        		int num2 = in.nextInt();
 	        		int total = num1 + num2;
 	        		System.out.println("The total is " + total + ".");
+	        		 System.out.println("This was an example of storing two integers of which numbers you decided");
+	     	        System.out.println("and then they were added together and the total was outputted.");
 	        		badInput = false;
 	        	} else {
 	        		System.out.println("You must have typed something wrong. Please try again.");
 	        		integerInput = in.nextLine();
 	        	}
 	        }
-	        System.out.println("This was an example of storing two integers of which numbers you decided");
-	        System.out.println("and then they were added together and the total was outputted.");
+	     
 	        badInput = true;
 	        System.out.println("Type \"Double\" for an example.");
 	        String doubInput = in.nextLine() + in.nextLine();
@@ -97,7 +86,14 @@ public class Main {
 	        String doub = "Double";
 	        while (badInput) {
 	        	if (doubInput.equals(doub)) {
-	        		System.out.println("Hello");
+	        		System.out.println("Type a decimal number:");
+	        		double num3 = in.nextDouble();
+	        		System.out.println("Type another decimal number:");
+	        		double num4 = in.nextDouble();
+	        		double total2 = num3 / num4;
+	        		System.out.println("The first number divided by the second number is " + total2 + ".");
+	        		System.out.println("This was an example of doubles and that when both numbers of a calculation are doubles,");
+	        		System.out.println("the result will be a double as well and Java won't truncate your result.");
 	        		badInput = false;
 	        	} else {
 	        		System.out.println("You must have typed something wrong. Please try again.");
@@ -105,6 +101,54 @@ public class Main {
 	        	}
 	        }
 	        
+	        badInput = true;
+	        System.out.println("Type \"String\" for an example.");
+	        String strInput = in.nextLine() + in.nextLine();
+	        String str = "String";
+	        while (badInput) {
+	        	if (strInput.equals(str)) {
+	        		System.out.println("We have been using Strings to make sure that you are typing the correct thing");
+	        		System.out.println("before more information comes out at you.");
+	        		System.out.println("I don't think an example is necessary.");
+	        		badInput = false;
+	        	} else {
+	        		System.out.println("You must have typed something wrong. Please try again.");
+	        		strInput = in.nextLine();
+	        	}
+	        }
+	        
+	        badInput = true;
+	        System.out.println("Type \"Variable and Scope\" for definitions.");
+	        String varInput = in.nextLine();
+	        String var = "Variable and Scope";
+	        while (badInput) {
+	        	if (varInput.equals(var)) {
+	        		System.out.println("Variable-A place holder for a data type, to make it easier to be called upon.");
+	        		System.out.println("Scope-Means that the variables are only accessible in the method where they're declared.");
+	        		badInput = false;
+	        	} else {
+	        		System.out.println("You must have typed something wrong. Please try again.");
+	        		varInput = in.nextLine();
+	        	}
+	        }
+	        
+	        badInput = true;
+	        System.out.println("Type \"Final\" for a definition ans example.");
+	        String finInput = in.nextLine() + in.nextLine();
+	        String fin = "Final";
+	        while (badInput) {
+	        	if (finInput.equals(fin)) {
+	        		final int NUM5 = 5;
+	        		System.out.println("I have given the variable \"NUM5\" a value of " + NUM5);
+	        		System.out.println("Since num5 is a final, I wont be able to change it no matter what.");
+	        		System.out.println("If I were to try to change the value of \"NUM5\" I would get an error.");
+	        		System.out.println("Final-A keyword that makes whatever you assign it to unchangeable, unless you change it directly in the code.");
+	        		badInput = false;
+	        	} else {
+	        		System.out.println("You must have typed something wrong. Please try again.");
+	        		finInput = in.nextLine();
+	        	}
+	        }
 	        
 	        in.close(); 
 		}   
