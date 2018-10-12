@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 
 //Colby Nicoletti
 //A program that outputs the requirements for the Integration Project,
@@ -177,6 +178,84 @@ public class Main {
 	        	}
 	        	
 	        }
+	        
+	        badInput = true; 
+	        System.out.println("Type \"Escape\" for an example of escape sequences in strings.");
+	        String escapeInput= in.nextLine();
+	        String escape = "Escape";
+	        while (badInput) {
+	        	if (escapeInput.equals(escape)) {
+	        		System.out.println("Escape sequences are used to do things inside of a string such as:");
+	        		System.out.println("making a new line, putting double quotes inside of double quotes, inserting a tab, etc.");
+	        		System.out.println("I use an escape sequence everytime I check for the spelling in a word for this program.");
+	        		System.out.println("I don't think an example is necessary.");
+	        		badInput = false;
+	        	} else {
+	        		System.out.println("You must have typed something wrong. Please try again.");
+	        		escapeInput = in.nextLine();
+	        	}
+	        } 
+	        
+	        badInput = true;
+	        System.out.println("Type \"Casting\" for an example of casting.");
+	        String castInput = in.nextLine();
+	        String cast = "Casting";
+	        while (badInput) {
+	        	if (castInput.equals(cast)) {
+	        		System.out.println("Casting-taking an object of a particular data type and temporarily changing it to another data type.");
+	        		System.out.println("\"num7\" has been casted into 4.0 as a Double from 4 when it was an Integer.");
+	        		int num6 = 4;
+	        		Double num7 = (double) num6;
+	        		System.out.println(num7);
+	        		badInput = false;
+	        	} else {
+	        		System.out.println("You must have typed something wrong. Please try again.");
+	        		castInput = in.nextLine();
+	        	}
+	        }
+	        
+	        badInput = true;
+	        System.out.println("Type \"Method\" for an example of a method.");
+	        String methodInput = in.nextLine();
+	        String method = "Method";
+	        while(badInput) {
+	        	if (methodInput.equals(method)) {
+	        		System.out.println("The code below is an example of calling a method:");
+	        		System.out.println("JavaSubstring.substr();");
+	        		System.out.println("Below this line is the start of the method called.");
+	        		JavaSubstring.substr();
+	        		System.out.println("The method call is \"JavaSubstring.substr();\".");
+	        		System.out.println("The method arguements would normally go inside of the parentheses of the method call.");
+	        		System.out.println("For this example, we don't have any arguements.");
+	        		System.out.println("The method header would look like:");
+	        		System.out.println("\"public class JavaSubstring{}\"");
+	        		System.out.println("The method parameters would be on this line in the parentheses but for this example we don't have any specific parameters.");
+	        		System.out.println("\"public static void substr(The parameters go inside here!)\"");
+	        		badInput = false;
+	        	} else {
+	        		System.out.println("You must have typed something wrong. Please try again.");
+	        		methodInput = in.nextLine();
+	        	}
+	        }
+	        
+	        badInput = true;
+	        System.out.println("Type \"Random\" for an example of a random number generator.");
+	        String randomInput = in.nextLine();
+	        String random = "Random";
+	        while (badInput) {
+	        	if (randomInput.equals(random)) {
+	        		System.out.println("Let's pick a random number.");
+	        		double rando = Math.random();
+	        		System.out.println("It seems that, " + rando + " is our number!");
+	        		System.out.println("Is that random, or what?");
+	        		badInput = false;
+	        	} else {
+	        		System.out.println("You must have typed something wrong. Please try again.");
+	        		randomInput = in.nextLine();
+	        	}
+	        }
+	        
+	        
 	        
 	        in.close(); 
 		}   
