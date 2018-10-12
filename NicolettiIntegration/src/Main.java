@@ -134,13 +134,13 @@ public class Main {
 	        
 	        badInput = true;
 	        System.out.println("Type \"Final\" for a definition ans example.");
-	        String finInput = in.nextLine() + in.nextLine();
+	        String finInput = in.nextLine();
 	        String fin = "Final";
 	        while (badInput) {
 	        	if (finInput.equals(fin)) {
 	        		final int NUM5 = 5;
 	        		System.out.println("I have given the variable \"NUM5\" a value of " + NUM5);
-	        		System.out.println("Since num5 is a final, I wont be able to change it no matter what.");
+	        		System.out.println("Since \"NUM5\" is a final, I won't be able to change it no matter what.");
 	        		System.out.println("If I were to try to change the value of \"NUM5\" I would get an error.");
 	        		System.out.println("Final-A keyword that makes whatever you assign it to unchangeable, unless you change it directly in the code.");
 	        		badInput = false;
@@ -148,6 +148,34 @@ public class Main {
 	        		System.out.println("You must have typed something wrong. Please try again.");
 	        		finInput = in.nextLine();
 	        	}
+	        }
+	        
+	        badInput = true;
+	        System.out.println("Type \"String\" for an example of 3 different methods within the string class.");
+	        strInput = in.nextLine();
+	        str = "String";
+	        while (badInput) {
+	        	if (strInput.equals(str)) {
+	        		System.out.println("Method One:");
+	        		System.out.println(".equals-This method is one that has been allowing me to make sure you have been typing the correct words in this program,");
+	        		System.out.println("No example needed.");
+	        		System.out.println("Method Two:");
+	        		System.out.println(".length- gives you the length of a string in how many characters it has.");
+	        		System.out.println("Type a word:");
+	        		String word1 = in.nextLine();
+	        		System.out.println("Your word is " + word1.length() + " characters long.");
+	        		System.out.println("Method Three:");
+	        		System.out.println(".substring-Allows you to cut a string at a specific index of the string.");
+	        		System.out.println("Type a word that is at least 5 letters long:");
+	        		word1 = in.nextLine();
+	        		System.out.println("I decided to cut your word after the 4th letter:");
+	        		System.out.println(word1.substring(0,4));
+	        		badInput = false;
+	        	} else {
+	        		System.out.println("You must have typed something wrong. Please try again.");
+	        		strInput = in.nextLine();
+	        	}
+	        	
 	        }
 	        
 	        in.close(); 
