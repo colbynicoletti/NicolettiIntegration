@@ -12,6 +12,6 @@ public class JavaSubstring {
 	        System.out.println("Enter a value that symbolizes the end of your substring:");
 	        int end = in.nextInt();
 	        System.out.println(S.substring(start,end));
-	      
+	        System.out.println("Congratulations! You made a substring!");
 		}
 }
