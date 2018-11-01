@@ -19,64 +19,14 @@ public class Main {
     
     Integer.main(in, badInput);
 
-    badInput = true;
-    System.out.println("Type \"Double\" for an example.");
-    String doubInput = in.nextLine() + in.nextLine();
-    // System.out.println(doubInput);
-    String doub = "Double";
-    while (badInput) {
-      if (doubInput.equals(doub)) {
-        System.out.println("Type a decimal number:");
-        double num3 = in.nextDouble();
-        System.out.println("Type another decimal number:");
-        double num4 = in.nextDouble();
-        double total2 = num3 / num4;
-        System.out.println("The first number divided by the second number is " + total2 + ".");
-        System.out.println(
-            "This was an example of doubles and that when both numbers of a calculation are doubles,");
-        System.out
-            .println("the result will be a double as well and Java won't truncate your result.");
-        badInput = false;
-      } else {
-        System.out.println("You must have typed something wrong. Please try again.");
-        doubInput = in.nextLine();
-      }
-    }
+    DoubleMethod.main(in, badInput);
+    
+    StringMethod.main(in, badInput);
+    
+    VarAndScope.main(in, badInput);
 
-    badInput = true;
-    System.out.println("Type \"String\" for an example.");
-    String strInput = in.nextLine() + in.nextLine();
-    String str = "String";
-    while (badInput) {
-      if (strInput.equals(str)) {
-        System.out.println(
-            "We have been using Strings to make sure that you are typing the correct thing");
-        System.out.println("before more information comes out at you.");
-        System.out.println("I don't think an example is necessary.");
-        badInput = false;
-      } else {
-        System.out.println("You must have typed something wrong. Please try again.");
-        strInput = in.nextLine();
-      }
-    }
-
-    badInput = true;
-    System.out.println("Type \"Variable and Scope\" for definitions.");
-    String varInput = in.nextLine();
-    String var = "Variable and Scope";
-    while (badInput) {
-      if (varInput.equals(var)) {
-        System.out.println(
-            "Variable-A place holder for a data type, to make it easier to be called upon.");
-        System.out.println(
-            "Scope-Means that the variables are only accessible in the method where they're declared.");
-        badInput = false;
-      } else {
-        System.out.println("You must have typed something wrong. Please try again.");
-        varInput = in.nextLine();
-      }
-    }
-
+    FinalMethod.main(in, badInput);
+    
     badInput = true;
     System.out.println("Type \"Final\" for a definition ans example.");
     String finInput = in.nextLine();
@@ -101,8 +51,8 @@ public class Main {
     badInput = true;
     System.out
         .println("Type \"String\" for an example of 3 different methods within the string class.");
-    strInput = in.nextLine();
-    str = "String";
+   String strInput = in.nextLine();
+    String str = "String";
     while (badInput) {
       if (strInput.equals(str)) {
         System.out.println("Method One:");
