@@ -59,6 +59,10 @@ public class Main {
 
     Conclusion.main(badInput);
     
+    WhileExample.main(in, badInput);
+    
+    ForExample.main(in, badInput);
+    
     in.close();
   }
 }
