@@ -10,7 +10,7 @@ public class Main {
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
     boolean badInput = true;
-    
+  /* 
     Introduction.main();
     
     DataTypes.main(in, badInput);
@@ -63,6 +63,10 @@ public class Main {
     
     ForExample.main(in, badInput);
     
+    DoWhileLoopExample.main(in, badInput);
+    
+    BreakAndContinue.main(in, badInput);
+    */
     in.close();
   }
 }
