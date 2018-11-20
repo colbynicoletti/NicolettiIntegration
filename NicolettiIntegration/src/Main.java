@@ -67,6 +67,8 @@ public class Main {
     
     BreakAndContinue.main(in, badInput);
     */
+    SetterAndGetter.main(in, badInput);
+    
     in.close();
   }
 }
