@@ -24,10 +24,13 @@
 /RandomExample.class
 /RandomNumber.class
 /RelationalOperatorsExample.class
+/SetterAndGetter.class
 /StringMethod.class
 /StringUses.class
 /SwitchExample.class
 /TernaryConstructExample.class
 /VarAndScope.class
 /WhileExample.class
-/SetterAndGetter.class
+/OverloadingMethods.class
+/InheritanceDefinition.class
+/PolymorphismExample.class

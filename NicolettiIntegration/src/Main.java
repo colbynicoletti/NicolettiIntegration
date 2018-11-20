@@ -66,9 +66,13 @@ public class Main {
     DoWhileLoopExample.main(in, badInput);
     
     BreakAndContinue.main(in, badInput);
-    */
+    
     SetterAndGetter.main(in, badInput);
     
+    OverloadingMethods.main(in, badInput);
+    
+    InheritanceDefinition.main(in, badInput);
+    */
     in.close();
   }
 }
