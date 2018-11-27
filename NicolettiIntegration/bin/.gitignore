@@ -1,7 +1,9 @@
+/Animal.class
 /Boolean.class
 /BreakAndContinue.class
 /Calculator.class
 /CastingExample.class
+/Cat.class
 /CompareExample.class
 /Conclusion.class
 /ConditionalOperatorExample.class
@@ -34,5 +36,6 @@
 /TernaryConstructExample.class
 /VarAndScope.class
 /WhileExample.class
-/Animal.class
-/Cat.class
+/SuperAndThis.class
+/Arcade.class
+/Pinball.class
