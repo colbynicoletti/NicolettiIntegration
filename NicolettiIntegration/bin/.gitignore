@@ -13,13 +13,16 @@
 /FinalMethod.class
 /ForExample.class
 /IfStatementExample.class
+/InheritanceDefinition.class
 /Integer.class
 /Introduction.class
 /JavaSubstring.class
 /Main.class
 /MethodExample.class
 /OperatorPrecedenceExample.class
+/OverloadingMethods.class
 /PlusEqualsExample.class
+/PolymorphismExample.class
 /Random.class
 /RandomExample.class
 /RandomNumber.class
@@ -31,6 +34,5 @@
 /TernaryConstructExample.class
 /VarAndScope.class
 /WhileExample.class
-/OverloadingMethods.class
-/InheritanceDefinition.class
-/PolymorphismExample.class
+/Animal.class
+/Cat.class

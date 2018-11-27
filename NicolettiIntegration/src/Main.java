@@ -72,6 +72,8 @@ public class Main {
     OverloadingMethods.main(in, badInput);
     
     InheritanceDefinition.main(in, badInput);
+    
+    PolymorphismExample.main(in, badInput);
     */
     in.close();
   }
