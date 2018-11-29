@@ -1,4 +1,5 @@
 /Animal.class
+/Arcade.class
 /Boolean.class
 /BreakAndContinue.class
 /Calculator.class
@@ -23,6 +24,7 @@
 /MethodExample.class
 /OperatorPrecedenceExample.class
 /OverloadingMethods.class
+/Pinball.class
 /PlusEqualsExample.class
 /PolymorphismExample.class
 /Random.class
@@ -32,10 +34,8 @@
 /SetterAndGetter.class
 /StringMethod.class
 /StringUses.class
+/SuperAndThis.class
 /SwitchExample.class
 /TernaryConstructExample.class
 /VarAndScope.class
 /WhileExample.class
-/SuperAndThis.class
-/Arcade.class
-/Pinball.class
