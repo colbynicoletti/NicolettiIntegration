@@ -74,6 +74,10 @@ public class Main {
     InheritanceDefinition.main(in, badInput);
     
     PolymorphismExample.main(in, badInput);
+ 
+    SuperAndThis.main(in, badInput);
+     
+    ArrayExamples.main(in, badInput);
     */
     in.close();
   }
