@@ -80,8 +80,12 @@ public class Main {
     ArrayExamples.main(in, badInput);
     
     EnhancedForLoop.main(in, badInput);
-    */
+    
     TwoDimensionalArray.main(in, badInput);
+     
+    ArrayListExample.main(in, badInput);
+    */
+    SearchTwoDimensionalArray.main(in, badInput);
     
     in.close();
   }
