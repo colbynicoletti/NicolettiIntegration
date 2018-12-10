@@ -10,8 +10,15 @@ public class Boolean {
     // System.out.println(booleenInput);
     while (badInput) {
       if (booleenInput.equals(booleen)) {
+    	  boolean bird;
+    	  try {
         System.out.println("True or False: Fish can swim. \nPlease Enter \"true\" or \"false\".");
-        boolean bird = in.nextBoolean();
+        bird = in.nextBoolean();
+    	  }catch(Exception e){
+    		  System.out.println("Wrong input, please type either \"true\" or \"false\".");
+    		  in.nextLine();
+    		  bird = in.nextBoolean();
+    	  }
         if (bird == true) {
           System.out.println("You're Correct!");
           System.out.println(

@@ -17,7 +17,7 @@ public class Main {
     DataTypes.main(in, badInput);
     // */
     Boolean.main(in, badInput);
-    //
+    // 
     Integer.main(in, badInput);
 	//
     DoubleMethod.main(in, badInput);

@@ -5,15 +5,29 @@ public class Integer {
   public static void main(Scanner in, boolean badInput) {
     badInput = true;
     System.out.println("Type \"Integer\" for an example.");
-    String integerInput = in.nextLine() + in.nextLine();
+    String integerInput = in.nextLine();
     // System.out.println(integerInput);
     String integer = "Integer";
     while (badInput) {
       if (integerInput.equals(integer)) {
+    	  int num1;
+    	  int num2;
+    	try {
         System.out.println("Type a whole number:");
-        int num1 = in.nextInt();
+        num1 = in.nextInt();
+    	} catch (Exception e) {
+    		System.out.println("Requires an integer, try again:");
+    		in.nextLine();
+    		num1 = in.nextInt();
+    	} 
+    	try {
         System.out.println("Type another whole number:");
-        int num2 = in.nextInt();
+        num2 = in.nextInt();
+    	}catch(Exception e) {
+    		System.out.println("Requires an integer, try again:");
+    		in.nextLine();
+    		num2 = in.nextInt();
+    	}
         int total = num1 + num2;
         System.out.println("The total is " + total + ".");
         System.out
