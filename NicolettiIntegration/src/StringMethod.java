@@ -5,7 +5,7 @@ public class StringMethod {
   public static void main(Scanner in, boolean badInput) {
     badInput = true;
     System.out.println("Type \"String\" for an example.");
-    String strInput = in.nextLine() + in.nextLine();
+    String strInput = in.nextLine();
     String str = "String";
     while (badInput) {
       if (strInput.equals(str)) {

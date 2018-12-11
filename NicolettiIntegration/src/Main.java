@@ -15,25 +15,25 @@ public class Main {
     Introduction.main();
     //Handled
     DataTypes.main(in, badInput);
-    // */
+    //Handled 
     Boolean.main(in, badInput);
-    // 
+    //Handled
     Integer.main(in, badInput);
-	//
+	//Handled
     DoubleMethod.main(in, badInput);
-    //
+    // 
     StringMethod.main(in, badInput);
-    //
+    //Handled 
     VarAndScope.main(in, badInput);
-	//
+	//Handled 
     FinalMethod.main(in, badInput);
-    //
+    //Handled
     StringUses.main(in, badInput);
-    //
+    // 
     EscapeSequences.main(in, badInput);
-	//
+	//Handled 
     CastingExample.main(in, badInput);
-	//
+	//Handled */
     MethodExample.main(in, badInput);
     //
     RandomExample.main(in, badInput);

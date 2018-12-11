@@ -17,16 +17,24 @@ public class StringUses {
         System.out.println("No example needed.");
         System.out.println("Method Two:");
         System.out
-            .println(".length- gives you the length of a string in how many characters it has.");
-        System.out.println("Type a word:");
+            .println(".length()- gives you the length of a string in how many characters it has.");
+        System.out.println("Type a string:");
         String word1 = in.nextLine();
-        System.out.println("Your word is " + word1.length() + " characters long.");
+        System.out.println("Your string is " + word1.length() + " characters long.");
         System.out.println("Method Three:");
         System.out
             .println(".substring-Allows you to cut a string at a specific index of the string.");
-        System.out.println("Type a word that is at least 5 letters long:");
+        try {
+        System.out.println("Type a string that is at least 5 letters long:");
         word1 = in.nextLine();
-        System.out.println("I decided to cut your word after the 4th letter:");
+        }catch(Exception e) {
+        	if(word1.length() < 5 ) {
+        		break;
+        	} else {
+        		continue;
+        	}
+        }
+        System.out.println("I decided to cut your string after the 4th letter:");
         System.out.println(word1.substring(0, 4));
         badInput = false;
       } else {
