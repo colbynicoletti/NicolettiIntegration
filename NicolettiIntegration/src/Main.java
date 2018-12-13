@@ -59,23 +59,23 @@ public class Main {
     OperatorPrecedenceExample.main(in, badInput);
 	//Handled 
     WhileExample.main(in, badInput);
-    // */
+    //Handled 
     ForExample.main(in, badInput);
-    //
+    //Handled 
     DoWhileLoopExample.main(in, badInput);
-    //
+    //Handled 
     BreakAndContinue.main(in, badInput);
-    //
+    // 
     SetterAndGetter.main(in, badInput);
-    //
+    //Handled  
     OverloadingMethods.main(in, badInput);
-    //
+    //Handled 
     InheritanceDefinition.main(in, badInput);
-    //
+    //Handled 
     PolymorphismExample.main(in, badInput);
- 	//
+ 	//Handled 
     SuperAndThis.main(in, badInput);
-    //
+    // */
     ArrayExamples.main(in, badInput);
     //
     EnhancedForLoop.main(in, badInput);

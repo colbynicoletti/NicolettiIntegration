@@ -14,8 +14,13 @@ public class ForExample {
 				System.out.println("Let's make a loop that counts from 1 to your input.");
 				System.out.println("Please enter an integer between 2 and 10.");
 				loopInteger = in.nextInt();
+				if(loopInteger <= 10 && loopInteger >= 2) {
 				for (int i=1; i<=loopInteger; i++) {
 					System.out.println(i);
+				}
+				}else{
+					System.out.println("Wrong input or wrong number, try again.");
+					loopInteger = in.nextInt();
 				}
 				System.out.println("Since you entered " + loopInteger + " we started from there and added one in a loop until we got to "+ loopInteger);
 				badInput = false;
