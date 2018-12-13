@@ -5,7 +5,7 @@ public class RelationalOperatorsExample {
 	public static void main(Scanner in, boolean badInput) {
 		badInput = true;
 	    System.out.println("Type \"Relational\" for an example of Relational Operators.");
-	    String relInput = in.nextLine() + in.nextLine();
+	    String relInput = in.nextLine();
 	    String rel = "Relational";
 	    while (badInput) {
 	      if (relInput.equals(rel)) {

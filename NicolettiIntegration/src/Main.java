@@ -43,25 +43,23 @@ public class Main {
     TernaryConstructExample.main(in, badInput);
     //Handled 
     SwitchExample.main(in, badInput);
-	//Handled */
+	//Handled
     CompareExample.main(in, badInput);
-	//
+	//Handled 
     Calculator.main(in, badInput);
-    //
+    //Handled
     DoublePlusAndDoubleMinus.main(in, badInput);
-    //
+    //Handled 
     RelationalOperatorsExample.main(in, badInput);
-    //
+    //Handled 
     PlusEqualsExample.main(in, badInput);
-    //
+    //Handled 
     ConditionalOperatorExample.main(in, badInput);
-	//
+	//Handled 
     OperatorPrecedenceExample.main(in, badInput);
-	//
-    Conclusion.main(badInput);
-    //
+	//Handled 
     WhileExample.main(in, badInput);
-    //
+    // */
     ForExample.main(in, badInput);
     //
     DoWhileLoopExample.main(in, badInput);

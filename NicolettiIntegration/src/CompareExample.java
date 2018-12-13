@@ -6,7 +6,7 @@ public class CompareExample {
 		 badInput = true;
 		    System.out.println(
 		        "Type \"Compare\" for an example of a.compareTo statement and comment about what \"==\" does with objects.");
-		    String comInput = in.nextLine() + in.nextLine();
+		    String comInput = in.nextLine();
 		    String com = "Compare";
 		    while (badInput) {
 		      if (comInput.equals(com)) {

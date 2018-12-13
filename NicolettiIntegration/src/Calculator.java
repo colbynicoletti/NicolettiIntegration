@@ -8,12 +8,26 @@ public class Calculator {
 		    String calcInput = in.nextLine();
 		    String calc = "Calculator";
 		    while (badInput) {
+		    int add1 = 0;
+		    int add2 = 0;
 		      if (calcInput.equals(calc)) {
 		        System.out.println("We are going to first be looking at \"+\".");
 		        System.out.println("Enter a whole number:");
-		        int add1 = in.nextInt();
+		        try {
+		        add1 = in.nextInt();
+		        }catch(Exception e) {
+		        	System.out.println("Please use an integer.");
+		        	in.nextLine();
+		        	add1 = in.nextInt();
+		        }
 		        System.out.println("Enter another whole number:");
-		        int add2 = in.nextInt();
+		        try {
+		        add2 = in.nextInt();
+		        }catch(Exception e) {
+		        	System.out.println("Please use an integer.");
+		        	in.nextLine();
+		        	add2 = in.nextInt();
+		        }
 		        int add3 = add1 + add2;
 		        System.out.println("The first number \"+\" the second number is " + add3);
 		        System.out.println(

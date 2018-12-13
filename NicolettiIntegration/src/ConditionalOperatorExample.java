@@ -5,7 +5,7 @@ public class ConditionalOperatorExample {
 	public static void main(Scanner in, boolean badInput) {
 		badInput = true;
 	    System.out.println("Type \"Conditional\" for an example of a Conditional Operator.");
-	    String conInput = in.nextLine() + in.nextLine();
+	    String conInput = in.nextLine();
 	    String con = "Conditional";
 	    while (badInput) {
 	      if (conInput.equals(con)) {

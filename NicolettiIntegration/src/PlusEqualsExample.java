@@ -8,12 +8,19 @@ public class PlusEqualsExample {
 		    String pluseqInput = in.nextLine();
 		    String pluseq = "+=";
 		    while (badInput) {
+		    	int number2 = 0;
 		      if (pluseqInput.equals(pluseq)) {
 		        System.out.println(
 		            "The \"+=\" function is used to increment whatever variable is before it by whatever number is after it.");
 		        System.out.println("You'll see what I'm talking about now.");
 		        System.out.println("Enter a whole number:");
-		        int number2 = in.nextInt();
+		        try {
+		        number2 = in.nextInt();
+		        }catch(Exception e) {
+		        	System.out.println("Please use an integer.");
+		        	in.nextLine();
+		        	number2 = in.nextInt();
+		        }
 		        System.out.println("You entered " + number2
 		            + ", I decided to increment it by 5, the next output will be " + number2 + " plus 5.");
 		        number2 += 5;
