@@ -5,12 +5,19 @@ public class SwitchExample {
   public static void main(Scanner in, boolean badInput) {
     badInput = true;
     System.out.println("Type \"Switch\" for an example of a switch statement.");
-    String switInput = in.nextLine() + in.nextLine();
+    String switInput = in.nextLine();
     String swit = "Switch";
     while (badInput) {
       if (switInput.equals(swit)) {
         System.out.println("Type a whole number between 1 and 7.");
-        int day = in.nextInt();
+        int day = 0;
+        try {
+        day = in.nextInt();
+        }catch(Exception e) {
+        	System.out.println("Please enter an integer.");
+        	in.nextLine();
+        	day = in.nextInt();
+        }
         String dayString;
         switch (day) {
           case 1:

@@ -33,17 +33,17 @@ public class Main {
     EscapeSequences.main(in, badInput);
 	//Handled 
     CastingExample.main(in, badInput);
-	//Handled */
+	//Handled 
     MethodExample.main(in, badInput);
-    //
+    //Handled 
     RandomExample.main(in, badInput);
-    //
+    //Handled 
     IfStatementExample.main(in, badInput);
-    //
+    //Handled 
     TernaryConstructExample.main(in, badInput);
-    //
+    //Handled 
     SwitchExample.main(in, badInput);
-	//
+	//Handled */
     CompareExample.main(in, badInput);
 	//
     Calculator.main(in, badInput);

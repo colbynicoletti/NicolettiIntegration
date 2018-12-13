@@ -8,11 +8,25 @@ public class TernaryConstructExample {
     String ternInput = in.nextLine();
     String tern = "Ternary";
     while (badInput) {
+    	int a = 0;
+    	int b = 0;
       if (ternInput.equals((tern))) {
+    	 try {
         System.out.println("Type a whole number:");
-        int a = in.nextInt();
+        a = in.nextInt();
+    	 }catch(Exception e) {
+    		 System.out.println("You must've typed something wrong, type an integer.");
+    		 in.nextLine();
+    		 a = in.nextInt();
+    	 }
+    	 try {
         System.out.println("Type another whole number:");
-        int b = in.nextInt();
+        b = in.nextInt();
+    	 }catch(Exception e) {
+    		 System.out.println("You must've typed something wrong, type an integer.");
+    		 in.nextLine();
+    		 a = in.nextInt();
+    	 }
         int minValue = (a < b) ? a : b;
         System.out.println(
             "Out of the 2 numbers you picked, I am able to tell you that the smaller number is "
