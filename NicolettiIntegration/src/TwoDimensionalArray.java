@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * This class goes over two dimensional arrays and prints each value at each coordinate in the array.
+ * @author Colby Nicoletti
+ *
+ */
 public class TwoDimensionalArray {
 
 	public static void main(Scanner in, boolean badInput) {

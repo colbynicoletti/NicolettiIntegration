@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/**
+ * This class goes over an enhanced for loop.
+ * These loops make iterating through one dimensional arrays smaller and more efficient.
+ * @author Colby Nicoletti
+ *
+ */
 public class EnhancedForLoop {
 
 	public static void main(Scanner in, boolean badInput) {

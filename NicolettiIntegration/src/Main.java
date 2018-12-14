@@ -3,8 +3,14 @@ import java.util.Scanner;
 // Colby Nicoletti
 // A program that outputs the requirements for the Integration Project,
 // making it easier to grade.
-// Use Menu Code from Module 6 under Supplemental Resources "Logic Ch. 11 Menu"
 
+//Javadoc in SetterAndGetter.java
+
+/**
+ * Represents the flow of my program.
+ * @author Colby Nicoletti
+ *
+ */
 public class Main {
 
   public static void main(String[] args) {

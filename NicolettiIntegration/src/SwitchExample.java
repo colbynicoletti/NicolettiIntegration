@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+/**
+ * This class goes over switch statements.
+ * It asks for user input between 1 and 7.
+ * It would then display what day of the week corresponds to that number.
+ * @author Colby Nicoletti
+ *
+ */
 public class SwitchExample {
 
   public static void main(Scanner in, boolean badInput) {

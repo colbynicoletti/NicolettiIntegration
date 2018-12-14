@@ -1,19 +1,40 @@
 import java.util.Scanner;
 
+/**
+ * This class shows exactly how setters and getters are supposed to work.
+ * @author Colby Nicoletti
+ *
+ */
 public class SetterAndGetter {
 	private static String color;
 	private static String name;
 	
+	/**
+	 * Gives default values to the variable name and color.
+	 * @param name
+	 * @param color
+	 */
 	public SetterAndGetter() {
 		name = "Jack";
 		color = "Blue";
 	}
 	
+	/**
+	 * This refers to the name and color that has been passed with an argument.
+	 * @param name
+	 * @param color
+	 */
 	public SetterAndGetter(String name, String color) {
 		this.name = name;
 		this.color = color;
 	}
 	
+	/**
+	 * This is the where the program runs.
+	 * It also explains how setters and getters work in a detailed description.
+	 * @param in
+	 * @param badInput
+	 */
 	public static void main(Scanner in, boolean badInput) {
 		badInput = true;
 		System.out.println("Type \"Setter\" for an example of setters and getters.");
@@ -48,7 +69,7 @@ public class SetterAndGetter {
 			System.out.println("Or, we could also pass in our values in the parenthesis in the other constructor.");
 			System.out.println("This allows for user input but if nothing is entered, the default constructor sets values automatically.");
 			System.out.println("Let's go ahead and use the default constructor.");
-			SetterAndGetter set1 = new SetterAndGetter();
+			
 			System.out.println("The default constructor reads as: " + name + " " + color);
 			System.out.println("We will now pass in our own values for the other constructor.");
 			System.out.println("Enter a name:");
@@ -56,7 +77,7 @@ public class SetterAndGetter {
 			System.out.println("Enter a color:");
 			String color = in.nextLine();
 			System.out.println("We will now display the other constructor.");
-			SetterAndGetter set2 = new SetterAndGetter(name, color);
+			
 			System.out.println("The name you chose was " + name + " and the color you chose was " + color);
 			badInput = false;
 		}else {
@@ -66,18 +87,34 @@ public class SetterAndGetter {
 			
 		}
 	}
+	/**
+	 * This is a method to set color.
+	 * @param in
+	 */
 	public static void setColor(Scanner in) {    
 			color = in.nextLine();
 		} 
 	
+	/**
+	 * This is a method to get/return color.
+	 * @return
+	 */
 	public static String getColor() {
 		return color;
 	}
 	
+	/**
+	 * This is a method to set name.
+	 * @param in
+	 */
 	public static void setName(Scanner in) {
 		name = in.nextLine();
 	}
 	
+	/**
+	 * This is a method to get/return name.
+	 * @return
+	 */
 	public static String getName() {
 		return name;
 	}

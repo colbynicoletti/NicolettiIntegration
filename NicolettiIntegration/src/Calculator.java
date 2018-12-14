@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+/**
+ * This class goes over a 5 function calculator.
+ * The fives functions are +,-,*,/,%.
+ * User was asked for 2 integers and all five were calculated.
+ * @author Colby Nicoletti
+ *
+ */
 public class Calculator {
 
 	public static void main(Scanner in, boolean badInput) {
@@ -19,7 +26,7 @@ public class Calculator {
 		        	System.out.println("Please use an integer.");
 		        	in.nextLine();
 		        	add1 = in.nextInt();
-		        }
+				}
 		        System.out.println("Enter another whole number:");
 		        try {
 		        add2 = in.nextInt();
@@ -27,7 +34,7 @@ public class Calculator {
 		        	System.out.println("Please use an integer.");
 		        	in.nextLine();
 		        	add2 = in.nextInt();
-		        }
+				}
 		        int add3 = add1 + add2;
 		        System.out.println("The first number \"+\" the second number is " + add3);
 		        System.out.println(

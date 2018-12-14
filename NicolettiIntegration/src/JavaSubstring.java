@@ -21,7 +21,7 @@ public class JavaSubstring {
 	        if (start > S.length()) {
 	        	System.out.println("Number is too high, enter another integer.");
 	        }else if(start <= S.length()){
-	        	input = false;	        }
+	        	input = false;	       }
 	        }
 	        System.out.println("Enter a value that symbolizes the end of your substring:");
 	        System.out.println("Hint: It should be less than the length of the string but greater than the last value you put in.");
@@ -40,5 +40,6 @@ public class JavaSubstring {
 	        }
 	        System.out.println(S.substring(start,end));
 	        System.out.println("Congratulations! You made a substring!");
-		}
+	        in.close();
+		}		
 }

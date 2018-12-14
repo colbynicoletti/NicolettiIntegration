@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * This class gives the user an example of how the final keyword works.
+ * @author Colby Nicoletti
+ *
+ */
 public class FinalMethod {
 
   public static void main(Scanner in, boolean badInput) {

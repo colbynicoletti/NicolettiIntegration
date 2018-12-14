@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * This class goes over polymorphism and how it allows objects to "morph" into other objects.
+ * @author Colby Nicoletti
+ *
+ */
 public class PolymorphismExample {
 
 	public static void main(Scanner in, boolean badInput) {

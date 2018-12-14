@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+/**
+ * This class goes over relational operators.
+ * I decided to not put an example into this class.
+ * I have relational operators all over this program.
+ * @author Colby Nicoletti
+ *
+ */
 public class RelationalOperatorsExample {
 
 	public static void main(Scanner in, boolean badInput) {
@@ -14,11 +21,11 @@ public class RelationalOperatorsExample {
 	            "Since I have used some of these in previous parts of my program, I will not be showing an example.");
 	        badInput = false;
 	      } else {
-	        System.out.println("You must have typed something wrong. Please try again.");
+				System.out.println("You must have typed something wrong. Please try again.");
 	        relInput = in.nextLine();
 	      }
 	    }
-
 	}
-
 }
+	
+

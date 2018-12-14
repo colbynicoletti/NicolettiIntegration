@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/**
+ * This class goes over a one dimensional array.
+ * It shows the user how to iterate through a loop and other benefits of arrays.
+ * @author Colby Nicoletti
+ *
+ */
 public class ArrayExamples {
 
 	public static void main(Scanner in, boolean badInput) {

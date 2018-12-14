@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+/**
+ * This class goes over what ++ and -- mean.
+ * Also, having the ++ or -- before or after a variable means something different.
+ * That was went over throughout this class.
+ * @author Colby Nicoletti
+ *
+ */
 public class DoublePlusAndDoubleMinus {
 
 	public static void main(Scanner in, boolean badInput) {

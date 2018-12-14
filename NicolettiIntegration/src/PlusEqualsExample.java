@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/**
+ * This class goes over += and its functionality in programming.
+ * We can use += for an accumulator.
+ * @author Colby Nicoletti
+ *
+ */
 public class PlusEqualsExample {
 
 	public static void main(Scanner in, boolean badInput) {

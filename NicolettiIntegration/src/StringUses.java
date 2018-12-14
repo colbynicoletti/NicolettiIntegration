@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * This class gives 3 different ways you can work with strings to your advantage.
+ * @author Colby Nicoletti
+ *
+ */
 public class StringUses {
 
   public static void main(Scanner in, boolean badInput) {
@@ -28,7 +33,7 @@ public class StringUses {
         System.out.println("Type a string that is at least 5 letters long:");
         word1 = in.nextLine();
         }catch(Exception e) {
-        	if(word1.length() < 5 ) {
+					if (word1.length() < 5) {
         		break;
         	} else {
         		continue;

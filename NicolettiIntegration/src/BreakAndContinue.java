@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+/**
+ * This class goes over break and continue.
+ * Showing how breaks can make loops terminate.
+ * Also how continue makes loops skip an iteration in the loop.
+ * @author Colby Nicoletti
+ *
+ */
 public class BreakAndContinue {
 
 	public static void main(Scanner in, boolean badInput) {

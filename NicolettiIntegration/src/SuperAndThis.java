@@ -1,7 +1,14 @@
 import java.util.Scanner;
 
-
-
+/**
+ * This class goes over the super and this keyword. 
+ * I couldn't figure out how super was supposed to work.
+ * I understand how it's supposed to work but in my program when I was coding it, it wasn't working properly.
+ * The this keyword has been used in the SetterAndGetter.java class.
+ * No example needed.
+ * @author Colby Nicoletti
+ *
+ */
 public class SuperAndThis {
 	
 	public static void main(Scanner in, boolean badInput) {

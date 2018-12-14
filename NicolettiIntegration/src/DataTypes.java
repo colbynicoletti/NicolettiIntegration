@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * Displays the 8 primitive data types and describes them.
+ * @author Colby Nicoletti
+ *
+ */
 public class DataTypes {
 
   public static void main(Scanner in, boolean badInput) {

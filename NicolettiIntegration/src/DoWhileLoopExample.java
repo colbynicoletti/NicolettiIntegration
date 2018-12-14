@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/**
+ * This class goes over do while loops.
+ * An example is programmed to show the user how do while loops differ from for and while loops.
+ * @author Colby Nicoletti
+ *
+ */
 public class DoWhileLoopExample {
 
 	public static void main(Scanner in, boolean badInput) {

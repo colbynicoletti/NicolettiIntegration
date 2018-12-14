@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * This class goes over an example of casting a double from an integer.
+ * @author Colby Nicoletti
+ *
+ */
 public class CastingExample {
 
   public static void main(Scanner in, boolean badInput) {

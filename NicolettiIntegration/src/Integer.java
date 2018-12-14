@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/**
+ * This program demonstrates integers.
+ * It asks for user input for 2 integers and then adds them together.
+ * @author Colby Nicoletti
+ *
+ */
 public class Integer {
 
   public static void main(Scanner in, boolean badInput) {

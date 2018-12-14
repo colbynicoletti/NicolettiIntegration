@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+/**
+ * This class goes over conditional operators.
+ * These include && and ||.
+ * It explains how they're useful in programming.
+ * @author Colby Nicoletti
+ *
+ */
 public class ConditionalOperatorExample {
 
 	public static void main(Scanner in, boolean badInput) {

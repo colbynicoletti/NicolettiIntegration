@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/**
+ * This class goes over how method overloading works to our advantage.
+ * It also shows you how to do it in an example.
+ * @author Colby Nicoletti
+ *
+ */
 public class OverloadingMethods {
 	
 	public void overloader(char c) {

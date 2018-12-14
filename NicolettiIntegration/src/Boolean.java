@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * This class goes over booleans and how they work in code.
+ * @author Colby Nicoletti
+ *
+ */
 public class Boolean {
 
   public static void main(Scanner in, boolean badInput) {
@@ -18,7 +23,7 @@ public class Boolean {
     		  System.out.println("Wrong input, please type either \"true\" or \"false\".");
     		  in.nextLine();
     		  bird = in.nextBoolean();
-    	  }
+				}
         if (bird == true) {
           System.out.println("You're Correct!");
           System.out.println(

@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+/**
+ * This class goes over the for loop.
+ * Information on the loop is displayed.
+ * I made an example of it so it would be easier to understand as well.
+ * @author Colby Nicoletti
+ *
+ */
 public class ForExample {
 
 	public static void main(Scanner in, boolean badInput) {

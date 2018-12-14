@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+/**
+ * This class goes over while loops.
+ * An example wasn't needed because majority of my classes contain a while loop.
+ * I gave 3 pieces of information on them as well.
+ * @author Colby Nicoletti
+ *
+ */
 public class WhileExample {
 
 	public static void main(Scanner in, boolean badInput) {

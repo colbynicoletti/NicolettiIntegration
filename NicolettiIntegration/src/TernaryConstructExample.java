@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+/**
+ * This class goes over Ternary Constructs.
+ * More specifically, 2 numbers are asks to be entered by the user.
+ * The program deciphers the smaller of the two numbers.
+ * @author Colby Nicoletti
+ *
+ */
 public class TernaryConstructExample {
 
   public static void main(Scanner in, boolean badInput) {

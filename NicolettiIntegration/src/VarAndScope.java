@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * This class just prints variable and scope and defines them.
+ * @author Colby Nicoletti
+ *
+ */
 public class VarAndScope {
 
   public static void main(Scanner in, boolean badInput) {

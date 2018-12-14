@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/**This class describes inheritance and its benefits.
+ * @author Colby Nicoletti
+ *
+ */
 public class InheritanceDefinition {
 
 	public static void main(Scanner in, boolean badInput) {

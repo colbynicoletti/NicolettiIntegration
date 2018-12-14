@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * This class goes over how to pick a random number using Math.random();.
+ * @author Colby Nicoletti
+ *
+ */
 public class RandomExample {
 
   public static void main(Scanner in, boolean badInput) {

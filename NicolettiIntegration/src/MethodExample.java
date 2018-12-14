@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * This class goes over methods, how to call them and what parameters are.
+ * @author Colby Nicoletti
+ *
+ */
 public class MethodExample {
 
   public static void main(Scanner in, boolean badInput) {

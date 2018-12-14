@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/**
+ * This class talks about escape sequences.
+ * I didn't think an example was necessary as we cover them all over this program.
+ * @author Colby Nicoletti
+ *
+ */
 public class EscapeSequences {
 
   public static void main(Scanner in, boolean badInput) {

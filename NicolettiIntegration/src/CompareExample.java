@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+/**
+ * This class goes over the .compareTo method.
+ * I used it to see which word was first in alphabetical order.
+ * Next, I needed to describe what == meant.
+ * @author Colby Nicoletti
+ *
+ */
 public class CompareExample {
 
 	public static void main(Scanner in, boolean badInput) {

@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/**
+ * This class was supposed to go over finding the coordinates for a number in a two dimensional array.
+ * I couldn't figure it out so it's unfinished.
+ * @author Colby Nicoletti
+ *
+ */
 public class SearchTwoDimensionalArray {
 
 	public static void main(Scanner in, boolean badInput) {

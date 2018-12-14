@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/**
+ * This just tells the user that there won't be an example of a string.
+ * We have used strings many times before so it is not necessary to add.
+ * @author Colby Nicoletti
+ *
+ */
 public class StringMethod {
 
   public static void main(Scanner in, boolean badInput) {

@@ -1,6 +1,13 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * This class goes over the differences between an array list and a normal array.
+ * It shows users that you can add and remove elements from an array list.
+ * While using a normal array, you can't change the size of it.
+ * @author Colby Nicoletti
+ *
+ */
 public class ArrayListExample {
 
 	public static void main(Scanner in, boolean badInput) {

@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/**
+ * This class goes over if statements.
+ * I didn't think an example was necessary as If statements are scattered throughout this program.
+ * @author Colby Nicoletti
+ *
+ */
 public class IfStatementExample {
 
   public static void main(Scanner in, boolean badInput) {
